@@ -1,0 +1,18 @@
+#! /bin/bash
+echo -e "======================== clear start ======================="
+
+	echo -e "\033[32m  git clean -fd \033[0m"
+	git clean -fd
+	
+	echo -e "\033[32m  git checkout -f \033[0m"
+	git checkout -f
+	
+	echo -e "\033[32m  git pull \033[0m"
+	git pull
+	
+	echo -e "\033[32m  git status \033[0m"
+	git status
+
+
+
+echo -e "======================== clear end ========================="

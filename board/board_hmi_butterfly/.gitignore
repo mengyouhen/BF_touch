@@ -1,0 +1,12 @@
+/MDK-ARM/DebugConfig/
+/MDK-ARM/board_hmi_butterfly/
+/MDK-ARM/RTE/
+
+/MDK-ARM/*.uvgui*
+/MDK-ARM/startup_stm32*.lst
+
+
+
+
+
+

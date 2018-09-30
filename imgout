@@ -1,0 +1,46 @@
+#! /bin/bash
+echo -e "======================== imgout start ======================="
+
+
+# is output exist
+if [ -e output ]; then
+  rm output/*; 
+else
+  mkdir output; 
+fi
+
+var_time=`date +%Y%m%d_%H%M%S`
+
+#copy hex file
+cp -v ./board/board_hmi_butterfly/MDK-ARM/board_hmi_butterfly/board_hmi_butterfly.hex ./output/board_hmi_butterfly_$var_time.hex
+cp -v ./board/board_hmi_butterfly/MDK-ARM/board_hmi_butterfly/board_hmi_butterfly.axf ./output/board_hmi_butterfly_$var_time.axf
+
+
+echo -e "======================== imgout end ========================="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
